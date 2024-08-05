@@ -1,0 +1,26 @@
+{
+  "name": "custom-checks",
+  "title": "Character Sheet Skills Override (Cosmetic Only)",
+  "description": "A module to override character sheet skill names for cosmetic purposes, so you can change Survival to Hacking (or whichever you like, this is only visible on player character sheets so they can oblige when asked.).",
+  "authors": [
+    "authors": [
+        {
+            "name": "knoself",
+            "discord": "knoself"
+        }
+    ],
+  "version": "0.1",
+  "minimumCoreVersion": "10.0",
+  "compatibleCoreVersion": "10",
+  "manifest": "path/to/module.json",
+  "download": "path/to/download.zip",
+  "socket": true,
+  "scripts": ["scripts/settings.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
